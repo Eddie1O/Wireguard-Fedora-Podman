@@ -1,6 +1,6 @@
 docker run -d \
   --name=homeguard \
-  --cap-add=NET_ADMIN,,NET_RAW \
+  --cap-add=NET_ADMIN,NET_RAW \
   --cap-add=SYS_MODULE \
   -e PUID=1000 \
   -e PGID=1000 \
